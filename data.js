@@ -1,5 +1,5 @@
 const {MongoClient} = require('mongodb')
-const client = new MongoClient(DB_URL)
+const client = new MongoClient(procces.env.DB_URL)
 const dotenv = require('dotenv').config()
 
 
